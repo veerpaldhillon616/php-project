@@ -21,5 +21,4 @@ while($row = mysqli_fetch_array($t, MYSQLI_ASSOC)){
                 </div>
             </div>';	
 } 
-session_destroy();
 ?>

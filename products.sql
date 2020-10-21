@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 19, 2020 at 05:34 PM
+-- Generation Time: Oct 21, 2020 at 06:41 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.9
 
@@ -41,13 +41,13 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`Product_ID`, `name`, `description`, `price`, `quantity`, `image`) VALUES
-(1, 'THE MAGIC FOUNDATION KIT', 'MAGIC COMPLEXION BRUSH ROSE GOLD & NIGHT CRIMSON', '79.00', 20, 'foundation.jpg'),
-(2, 'Mini MAC Lipstick', 'COLOR: Ruby Woo - very matte vivid blue-red', '80.00', 12, 'lip.jpg'),
-(3, 'Line Smoothing Concealer', 'Smooths and minimizes the appearance of fine lines for an instantly firmer look', '150.00', 16, 'concelor.jpg'),
-(4, 'MakeUp Kit', 'Top cosmeticks Products', '155.00', 12, 'kit.jpeg'),
-(5, 'SOFIA’S CONFIDENCE-BOOSTING MAKEUP KIT', 'A magical makeup kit featuring Sofia Tilbury’s favourite, beautifying makeup icons for your face, eyes & lips!', '214.80', 11, 'kit2.jpg'),
-(6, 'FACE THE BEAT BRUSH COLLECTION', 'Filters? Don’t need ‘em. This 5-piece collection has everything you need for complexion perfection, from buffed-out foundation to killer contour and everything in between. It really is a best face scenario.', '101.00', 6, 'brush.png'),
-(7, 'Moisture Surge™ 72-Hour Auto-Replenishing Hydrator', 'Gift With Purchase\r\nReceive as your free gift a full-size Moisture Surge™ Eye 96-Hour Hydro-Filler Concentrate 15ml with any $48+ Clinique moisturizer purchase. One per customer, while quantities last.', '127.00', 58, 'white.jpg');
+(1, 'IDEALLEAN WORKOUT BUNDLE', 'These three products are the triple threat you need for amazing workouts, fast recovery, and spectacular results.', '180.00', 16, '3.jpg'),
+(3, 'Clear Whey Isolates', 'A refreshing and juicy post-workout protein boost', '150.00', 16, '3.jpg'),
+(4, 'IDEALLEAN BCAAS - RASPBERRY LEMONADE', 'In addition to providing high-quality BCAAs in a proven 2:1:1 ratio, IdealLean BCAAs amplifies weight loss with its IdealLean Fat Loss Blend with ingredients', '155.00', 12, '4.jpg'),
+(5, 'JUICE PLUS+®\r\nVINEYARD BLEND CHEWABLES', 'The chewables contains no artificial flavors or artificial colors and are 100% vegetarian; the chewy texture comes from fruit pectins, not gelatin.', '214.00', 11, '5.jpg'),
+(6, 'IDEALLEAN PROTEIN', 'We want to make sure our protein is high quality and helps women to reach their goals and get the best nutrition. That why all of our IdealLean Whey Protein is Labdoor quality approved, passing Labdoor tests for both accuracy and purity!', '101.00', 6, '6.png'),
+(7, 'THE Plant Protein', 'Harness the power of plants to achieve your fitness goals', '127.00', 18, '7.jpg'),
+(8, 'IDEALLEAN WORKOUT BUNDLE', 'These three products are the triple threat you need for amazing workouts, fast recovery, and spectacular results.', '150.00', 16, 'new.jpg');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +67,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `Product_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `Product_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
